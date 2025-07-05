@@ -1,6 +1,7 @@
 import Container from "@/components/layout/Container";
 import Button from "@/components/ui/Button";
 import Paragraph from "@/components/ui/Paragraph";
+import SectionBadge from "@/components/ui/SectionBadge";
 import SectionTitle from "@/components/ui/SectionTitle";
 import Image from "next/image";
 
@@ -17,6 +18,9 @@ export default function Home() {
         <SectionTitle>
           ghhvgbhjdgvdhj
         </SectionTitle>
+        <SectionBadge>
+          hello man! good day
+        </SectionBadge>
       </Container>
     </main>
   );
