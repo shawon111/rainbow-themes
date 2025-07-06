@@ -1,8 +1,10 @@
+import HeroSection from "@/components/pages/home/HeroSection";
 
 export default function Home() {
   return (
-    <div className="p-8">
-      
+    <div>
+      {/* hero section */}
+      <HeroSection />
     </div>
   );
 }
