@@ -11,6 +11,7 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Paragraph from '@/components/ui/Paragraph';
 import Button from '@/components/ui/Button';
 import Link from 'next/link';
+import FunFact from './FunFact';
 
 const About = () => {
     return (
@@ -127,6 +128,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <FunFact />
             </Container>
         </section>
     );
